@@ -1,33 +1,40 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<!--li><a href="/about">About</a></li-->
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-				<table>
-					<tr>
-						<td class="tdcenter"><img src="/img/tel-malyn.png" /></td>
-					</tr>
-				</table>
-	    		<ul>
-	        		<!--li><a href="mailto:malynhandmadekakain@gmx.ch">email</a></li-->
-					<!--li><a href="http://malynhandmade.github.io/">malynhandmadekakain.github.io</a></li-->
-					<!--li><img src="/img/tel-malyn.png" /></li-->
-				</ul>
-			</footer>
-		</body>
-	</html>
+<html>
+
+<head>
+	<title>{{ page.title }}</title>
+	<!-- link to main stylesheet -->
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/poto">Poto</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+
+		{{ content }}
+
+	</div><!-- /.container -->
+	<footer>
+		<table>
+			<tr class="tdcenter">
+				<td rowspan="2"><img src="/img/tel-malyn.png" /></td>
+				<td colspan="3">Mindestbestellmenge CHF 50, bei Malyn abholen (CHF 0) oder Zürich HB (CHF 15)</td>
+			</tr>
+			<tr class="tdcenter">
+				<td colspan="3">Minimal order size CHF 50, pick up from Malyn's home (CHF 0) or Zurich HB (CHF 15)</td>
+			</tr>
+		</table>
+		<ul>
+			<!--li><a href="mailto:malynhandmadekakain@gmx.ch">email</a></li-->
+			<!--li><a href="http://malynhandmade.github.io/">malynhandmadekakain.github.io</a></li-->
+			<!--li><img src="/img/tel-malyn.png" /></li-->
+		</ul>
+	</footer>
+</body>
+
+</html>
