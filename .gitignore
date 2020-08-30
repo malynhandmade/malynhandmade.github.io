@@ -3,3 +3,4 @@ _site/
 Gemfile*
 instructions.txt
 .jekyll-cache/
+run-jekyll.sh
