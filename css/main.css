@@ -3,6 +3,11 @@
     font-size: 1em;
     text-align: center;
 }
+.tdleft {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1em;
+    text-align: left;
+}
 body {
     margin: 60px auto;
     width: 70%;
