@@ -1,7 +1,15 @@
 normal_1pc:
   name: Moron normal
-  price: 1pc CHF 2.50
+  price: 1pc CHF 3.50
 
 chocolate_1pc:
   name: Chocolate moron
   price: 1pc CHF 3.50
+
+chocolate_12pcs:
+  name: Chocolate moron
+  price: 12pcs CHF 42
+  
+chocolate_23pcs:
+  name: Chocolate moron
+  price: 23pcs CHF 80.50  

@@ -1,0 +1,11 @@
+normal_1pc:
+  name: Bibingka
+  price: 1pc CHF 5
+
+normal_10pcs:
+  name: Bibingka
+  price: 10pcs CHF 50
+
+normal_30pcs:
+  name: Bibingka
+  price: 30pcs CHF 150
