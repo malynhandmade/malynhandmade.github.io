@@ -8,6 +8,11 @@
     font-size: 1em;
     text-align: left;
 }
+.tdright {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1em;
+    text-align: right;
+}
 body {
     margin: 60px auto;
     width: 70%;
