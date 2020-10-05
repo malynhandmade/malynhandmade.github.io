@@ -3,73 +3,76 @@ layout: default
 title: Maria's Hand made Bibingka
 ---
 <div class="blurb">
-	<h1>Get a taste of Malyn's hand made Bibingka!</h1>
-	<p>Kontaktiere Malyn für eine Bestellung | Get in touch with Malyn to place an order</p>
-	<table>
-		<tr class="tdcenter">
-			<td>
-				Bibingka - made of rice, coco nut milk and sugar.<p></p>
-			</td>
-			<td>
-				<picture>
-					<img src="/img/bibingka/0003_bibingka_320x240.jpg" alt="puto white">
-				</picture>
-			</td>
-			<td>
-				<picture>
-					<img src="/img/bibingka/0024_bibingka_rice_240x320.jpg" alt="puto white">
-				</picture>
-			</td>
-		</tr>
-		<tr class="tdcenter">
-			<td>
-				<picture>
-					<img src="/img/bibingka/0025_bibingka_30pcs_240x320.jpg" alt="puto white">
-				</picture>
-			</td>
-			<td>
-				<picture>
-					<img src="/img/puto/0022_puto_rice_in_banana_leave_320x240.jpg" alt="puto assorted">
-				</picture>
-			</td>
-			<td>
-				<picture>
-					<img src="/img/puto/0023_puto_rice_in_banana_leave_320x240.jpg" alt="puto white">
-				</picture>
-			</td>	
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-	</table>
-	<h2>prices</h2>
-	<table>
-		<tr>
-			<td class="tdleft">{{ site.data.bibingka.normal_1pc.name }}</td>
-			<td class="tdright">{{ site.data.bibingka.normal_1pc.price }}</td>
-		</tr>
-		<tr>
-			<td class="tdleft">{{ site.data.bibingka.normal_10pcs.name }}</td>
-			<td class="tdright">{{ site.data.bibingka.normal_10pcs.price }}</td>
-		</tr>
-		<tr>
-			<td class="tdleft">{{ site.data.bibingka.normal_30pcs.name }}</td>
-			<td class="tdright">{{ site.data.bibingka.normal_30pcs.price }}</td>
-		</tr>
-		<tr>
-			<td class="tdleft">{{ site.data.bibingka.normal_in_banana_leaf_1pc.name }}</td>
-			<td class="tdright">{{ site.data.bibingka.normal_in_banana_leaf_1pc.price }}</td>
-		</tr>
-		<tr>
-			<td class="tdleft">{{ site.data.bibingka.normal_in_banana_leaf_5pcs.name }}</td>
-			<td class="tdright">{{ site.data.bibingka.normal_in_banana_leaf_5pcs.price }}</td>
-		</tr>
-		<tr>
-			<td class="tdleft">{{ site.data.bibingka.normal_in_banana_leaf_10pcs.name }}</td>
-			<td class="tdright">{{ site.data.bibingka.normal_in_banana_leaf_10pcs.price }}</td>
-		</tr>
-	</table>
+	<div class="row">
+		<div class="col-12 tdcenter">
+			<h1>Get a taste of Malyn's hand made Bibingka!</h1>
+			<p>Kontaktiere Malyn für eine Bestellung | Get in touch with Malyn to place an order</p>
+		</div>
+	</div>
+	<!-- IMAGE ROW 1 -->
+	<div class="row">
+		<div class="col-4 tdcenter">Bibingka - made of rice, coco nut milk and sugar. </div>
+		<div class="col-4 tdcenter">
+			<picture>
+				<img src="/img/bibingka/0003_bibingka_320x240.jpg">
+			</picture>
+		</div>
+		<div class="col-4 tdcenter">
+			<picture>
+				<img src="/img/bibingka/0024_bibingka_rice_240x320.jpg">
+			</picture>
+		</div>
+	</div>
+	<!-- IMAGE ROW 2 -->
+	<div class="row">
+		<div class="col-4 tdcenter">
+			<picture>
+				<img src="/img/bibingka/0025_bibingka_30pcs_240x320.jpg">
+			</picture>
+		</div>
+		<div class="col-4 tdcenter">
+			<picture>
+				<img src="/img/bibingka/0022_bibinkang_puti_320x240.jpg">
+			</picture>
+		</div>
+		<div class="col-4 tdcenter">
+			<picture>
+				<img src="/img/bibingka/0023_bibinkang_puti_320x240.jpg">
+			</picture>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-6 tdcenter">
+			<table>
+				<tr>
+					<td colspan="2"><h2>prices</h2></td>
+				</tr>
+				<tr>
+					<td class="tdleft">{{ site.data.bibingka.normal_1pc.name }}</td>
+					<td class="tdright">{{ site.data.bibingka.normal_1pc.price }}</td>
+				</tr>
+				<tr>
+					<td class="tdleft">{{ site.data.bibingka.normal_10pcs.name }}</td>
+					<td class="tdright">{{ site.data.bibingka.normal_10pcs.price }}</td>
+				</tr>
+				<tr>
+					<td class="tdleft">{{ site.data.bibingka.normal_30pcs.name }}</td>
+					<td class="tdright">{{ site.data.bibingka.normal_30pcs.price }}</td>
+				</tr>
+				<tr>
+					<td class="tdleft">{{ site.data.bibingka.normal_in_banana_leaf_1pc.name }}</td>
+					<td class="tdright">{{ site.data.bibingka.normal_in_banana_leaf_1pc.price }}</td>
+				</tr>
+				<tr>
+					<td class="tdleft">{{ site.data.bibingka.normal_in_banana_leaf_5pcs.name }}</td>
+					<td class="tdright">{{ site.data.bibingka.normal_in_banana_leaf_5pcs.price }}</td>
+				</tr>
+				<tr>
+					<td class="tdleft">{{ site.data.bibingka.normal_in_banana_leaf_10pcs.name }}</td>
+					<td class="tdright">{{ site.data.bibingka.normal_in_banana_leaf_10pcs.price }}</td>
+				</tr>
+			</table>
+		</div>
+	</div>
 	</p>
-</div><!-- /.blurb -->
+</div>
