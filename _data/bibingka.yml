@@ -9,3 +9,15 @@ normal_10pcs:
 normal_30pcs:
   name: Bibingka
   price: 30pcs CHF 150
+
+normal_in_banana_leaf_1pc:
+  name: Bibingkang puti
+  price: 1pc CHF 3.50
+  
+normal_in_banana_leaf_5pcs:
+  name: Bibingkang puti
+  price: 5pcs CHF 17.00
+  
+normal_in_banana_leaf_10pcs:
+  name: Bibingkang puti
+  price: 10pcs CHF 35.00
