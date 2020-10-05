@@ -21,7 +21,3 @@ ube_8pcs:
 normal_8pcs_ube_8pcs:
   name: Puto normal and ube
   price: 8pcs normal and 8pcs ube, CHF 24
-
-normal_in_banana_leaf_1pc:
-  name: Puto normal with banana leaf
-  price: 1pc CHF 3.50
