@@ -1,5 +1,8 @@
 # malynhandmade.github.io
 
+# run locally
+`bundle exec jekyll serve`
+
 # jekyll stuff
 [https://jekyllrb.com/docs/datafiles/](https://jekyllrb.com/docs/datafiles/)
 
