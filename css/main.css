@@ -90,8 +90,7 @@ p {
     color: #333;
 }
 .price {
-    font-size: 1.4vw;
-    font-weight: bold;
+    font-weight: bolder;
 }
 footer {
     border-top: 1px solid #d5d5d5;
