@@ -21,16 +21,16 @@ title: Maria's Hand made Puto
 						</td>
 					</tr>
 					<tr>
-						<td class="tdleft">{{ site.data.chiffon.matcha.name }}</td>
+						<td class="tdleft">{{ site.data.chiffon.banana.name }}</td>
 					</tr>
 					<tr>
-						<td class="tdleft">{{ site.data.chiffon.mocha.name }}</td>
+						<td class="tdleft">{{ site.data.chiffon.bukopandan.name }}</td>
 					</tr>
 					<tr>
-						<td class="tdleft">{{ site.data.chiffon.ube.name }}</td>
+						<td class="tdleft">{{ site.data.chiffon.matcha.name }}, {{ site.data.chiffon.mocha.name }}</td>
 					</tr>
 					<tr>
-						<td class="tdleft">{{ site.data.chiffon.vanilla.name }}</td>
+						<td class="tdleft">{{ site.data.chiffon.ube.name }}, {{ site.data.chiffon.vanilla.name }}</td>
 					</tr>
 				</table>
 			</div>
@@ -38,13 +38,13 @@ title: Maria's Hand made Puto
 		<div class="col-4 tdcenter">
 			<picture>
 				<img src="/img/chiffon/0028.matcha_chiffon.notcut_320x240.jpg" alt="Chiffon">
-				<div>Matcha chiffon</div>
+				<div>{{ site.data.chiffon.matcha.name }}</div>
 			</picture>
 		</div>
 		<div class="col-4 tdcenter">
 			<picture>
 				<img src="/img/chiffon/0031.mocha_chiffon.notcut_320x240.jpg" alt="Chiffon">
-				<div>Mocha chiffon</div>
+				<div>{{ site.data.chiffon.mocha.name }}</div>
 			</picture>
 		</div>
 	</div>
@@ -56,6 +56,14 @@ title: Maria's Hand made Puto
 					<td colspan="2">
 						<h2>Prices</h2>
 					</td>
+				</tr>
+				<tr>
+					<td class="tdleft">{{ site.data.chiffon.banana.name }}</td>
+					<td class="tdright price">{{ site.data.chiffon.banana.price }}</td>
+				</tr>
+				<tr>
+					<td class="tdleft">{{ site.data.chiffon.bukopandan.name }}</td>
+					<td class="tdright price">{{ site.data.chiffon.bukopandan.price }}</td>
 				</tr>
 				<tr>
 					<td class="tdleft">{{ site.data.chiffon.matcha.name }}</td>
@@ -78,13 +86,13 @@ title: Maria's Hand made Puto
 		<div class="col-4 tdcenter">
 			<picture>
 				<img src="/img/chiffon/0006_UbeChiffon_320X240.jpg" alt="Chiffon">
-				<div>Ube chiffon</div>
+				<div>{{ site.data.chiffon.ube.name }}</div>
 			</picture>
 		</div>
 		<div class="col-4 tdcenter">
 			<picture>
 				<img src="/img/chiffon/0029.vanilla_chiffon.notcut_320x240.jpg" alt="Chiffon">
-				<div>Vanilla chiffon</div>
+				<div>{{ site.data.chiffon.vanilla.name }}</div>
 			</picture>
 		</div>
 	</div>
@@ -93,20 +101,50 @@ title: Maria's Hand made Puto
 		<div class="col-4 tdcenter">
 			<picture>
 				<img src="/img/chiffon/0027.matcha_chiffon.cut_240x320.jpg" alt="Chiffon">
-				<div>Matcha chiffon</div>
+				<div>{{ site.data.chiffon.matcha.name }}</div>
 			</picture>
 		</div>
 		<div class="col-4 tdcenter">
 			<picture>
 				<img src="/img/chiffon/0032.mocha_chiffon.cut_240x320.jpg" alt="Chiffon">
-				<div>Mocha chiffon</div>
+				<div>{{ site.data.chiffon.mocha.name }}</div>
 			</picture>
 		</div>
 		<div class="col-4 tdcenter">
 			<picture>
 				<img src="/img/chiffon/0030.vanilla_chiffon.cut_240x320.jpg" alt="Chiffon">
-				<div>Vanilla chiffon</div>
+				<div>{{ site.data.chiffon.vanilla.name }}</div>
 			</picture>
 		</div>
 	</div>
+	<!-- IMAGE ROW 4 -->
+	<div class="row">
+		<div class="col-4 tdcenter">
+			<picture>
+				<img src="/img/chiffon/0033.banana_chiffon.notcut.jpg" alt="Chiffon">
+				<div>{{ site.data.chiffon.banana.name }}</div>
+			</picture>
+		</div>
+		<div class="col-4 tdcenter">
+			<picture>
+				<img src="/img/chiffon/0034.banana_chiffon.cut.jpg" alt="Chiffon">
+				<div>{{ site.data.chiffon.banana.name }}</div>
+			</picture>
+		</div>
+		<div class="col-4 tdcenter">
+			<picture>
+				<img src="/img/chiffon/0036.bukoPandan_chiffon.cut.jpg" alt="Chiffon">
+				<div>{{ site.data.chiffon.bukopandan.name }}</div>
+			</picture>
+		</div>
+	</div>
+	<!-- IMAGE ROW 5 -->
+	<div class="row">
+		<div class="col-4 tdcenter">
+			<picture>
+				<img src="/img/chiffon/0035.bukoPandan_chiffon.notcut.jpg" alt="Chiffon">
+				<div>{{ site.data.chiffon.bukopandan.name }}</div>
+			</picture>
+		</div>
+	</div>	
 </div>
