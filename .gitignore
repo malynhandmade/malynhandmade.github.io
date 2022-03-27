@@ -5,3 +5,4 @@ instructions.txt
 .jekyll-cache/
 run-jekyll.sh
 .DS_Store
+github.token
