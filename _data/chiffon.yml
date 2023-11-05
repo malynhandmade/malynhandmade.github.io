@@ -1,23 +1,23 @@
 banana:
   name: Banana chiffon
-  price: 1pc CHF 35
+  price: 1pc CHF 40
  
 bukopandan:
   name: Buko Pandan chiffon
-  price: 1pc CHF 35
+  price: 1pc CHF 40
   
 matcha:
   name: Matcha chiffon
-  price: 1pc CHF 35
+  price: 1pc CHF 40
 
 mocha:
   name: Mocha chiffon
-  price: 1pc CHF 35
+  price: 1pc CHF 40
 
 vanilla:
   name: Vanilla chiffon
-  price: 1pc CHF 35
+  price: 1pc CHF 40
 
 ube:
   name: Ube chiffon
-  price: 1pc CHF 35  
+  price: 1pc CHF 40  
