@@ -1,10 +1,10 @@
-assorted_6pcs:
+assorted_8pcs:
   name: Puto assorted
-  price: 6pcs CHF 12
+  price: 8pcs CHF 12
 
-normal_10pcs:
+normal_12pcs:
   name: Puto normal
-  price: 10pcs CHF 15
+  price: 12pcs CHF 18
 
 normal_32pcs:
   name: Puto normal
