@@ -1,23 +1,23 @@
 assorted_8pcs:
   name: Puto assorted
-  price: 8pcs CHF 12
+  price: 8pcs CHF 15
 
 normal_12pcs:
   name: Puto normal
-  price: 12pcs CHF 18
+  price: 12pcs CHF 22.50
 
 normal_32pcs:
   name: Puto normal
-  price: 32pcs CHF 48
+  price: 32pcs CHF 60
 
 buko_pandan_21pcs:
   name: Buko pandan puto
-  price: 21pcs CHF 31.50
+  price: 21pcs CHF 35
 
 ube_8pcs:
   name: Ube puto
-  price: 8pcs CHF 12
+  price: 8pcs CHF 15
 
 normal_8pcs_ube_8pcs:
   name: Puto normal and ube
-  price: 8pcs normal + 8pcs ube, CHF 24
+  price: 8pcs normal + 8pcs ube, CHF 30
